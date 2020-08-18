@@ -5,3 +5,10 @@ A Lua formatter / pretty printer for Visual Studio Code.
 ## About
 
 Allows using the [`luafmt`](https://github.com/appgurueu/luafmt) formatter, written by appgurueu and licensed under the MIT license.
+
+## Versions
+
+* `v0.0.1`
+  * First version, basic formatting, `v1.0.8`
+* `v0.0.2`
+  * Bump `luafmt` version to `v1.0.9`
