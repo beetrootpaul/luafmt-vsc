@@ -26,3 +26,5 @@ Allows using the [`luafmt`](https://github.com/appgurueu/luafmt) formatter, writ
   * Bump `luafmt` version to `v1.2.1`
 * `v0.0.9`
   * Bump `luafmt` version to `v1.2.2`
+* `v0.0.10`+
+  * Bumps of `luafmt` versions
