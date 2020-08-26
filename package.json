@@ -21,8 +21,7 @@
 	"main": "./extension.js",
 	"scripts": {
 		"lint": "eslint .",
-		"pretest": "npm run lint",
-		"test": "node ./test/runTest.js"
+		"pretest": "npm run lint"
 	},
 	"dependencies": {
 		"@appguru/luafmt": "^1.2.2"
