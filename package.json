@@ -24,7 +24,7 @@
 		"pretest": "npm run lint"
 	},
 	"dependencies": {
-		"@appguru/luafmt": "^1.4.2"
+		"@appguru/luafmt": "^1.4.3"
 	},
 	"devDependencies": {
 		"@types/vscode": "^1.48.0",
