@@ -5,9 +5,9 @@ const {
 	TextEdit
 } = require("vscode");
 
-// const {
-// 	formatChunk
-// } = require("luafmt-pico8");
+const {
+	formatChunk
+} = require("luafmt-pico8");
 
 module.exports = {
 	activate: context => context.subscriptions.push(
@@ -18,8 +18,8 @@ module.exports = {
 						document.lineAt(0).range.start,
 						document.lineAt(document.lineCount - 1).range.end
 					),
-					"abc\ndef\n\tghi"
-					// formatChunk(document.getText())
+					// "abc\ndef\n\tghi"
+					formatChunk(document.getText())
 				)
 			]
 	})),
